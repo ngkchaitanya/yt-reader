@@ -1,0 +1,99 @@
+.caption {
+    padding: 5px 10px;
+    background-color: #EFEFEF;
+    margin-top: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.bodyContainer {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.topContainer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 800px;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.bottomContainer {
+    max-width: 800px;
+}
+
+.youtubeVideoContaner {
+    padding: 0 1rem 0 0;
+}
+
+.youtubeIFrame {
+    border-radius: 8px;
+}
+
+.titleContainer {
+    padding: 0 0 0 1rem;
+}
+
+.channelContainer {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.channelLabel {
+    color: #696969;
+}
+
+.channelTitle {
+    margin-left: 0.4rem;
+}
+
+.videoTitle {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.languageSelectionContainer {
+    margin-top: 1rem;
+}
+
+.languageSelectionLabel {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #696969;
+}
+
+.languageSelect {
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(256,0,0,0.1);
+}
+
+.languageSelect:focus {
+    outline: none;
+}
+
+.transcriptContainer {
+    /* background-color: #c2c2c2; */
+}
+
+.transcriptLabel {
+    font-size: 1.5rem;
+    color: #696969;
+}
+
+.noTranscript {
+
+}
+
+.transcriptText {
+    font-family: inherit;
+    margin: 1.5rem 0;
+}
